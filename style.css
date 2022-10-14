@@ -121,13 +121,34 @@ footer img:active {
     transform: scale(1.8);
 }
 
+
+
 @media screen and (max-width: 846px) {
     .cabecalho {
         width: 939px;
+        height: 307px;
+        padding: 57px 69px;
+    }
+
+    a img:hover {
+        transform: none;
+    }
+    
+    a img:active {
+        transform: none;
+    }
+
+    nav a:hover {
+        color: #DB7093;
+        transform: scale(1.0);
+    }
+    
+    nav a:active {
+        transform: none;
     }
 
     .cabecalho-menu-item {
-        font-size: 28px;
+        font-size: 34px;
     }
 
     .main-informations {
@@ -138,17 +159,21 @@ footer img:active {
     }
 
     .main-informations li {
-        width: 50%;
-        height: 800px;
+        width: 85%;
+        height: 1000px;
         padding: 155px 62px 182px;
     }
 
     .main-informations h2 {
-        font-size: 30px;
+        font-size: 49px;
     }
 
     .main-informations p {
-        font-size: 21px;
+        font-size: 30px;
+    }
+
+    ul li:hover {
+        transform: none;
     }
 
     footer {

@@ -9,7 +9,7 @@
 
 body {
     font-size: 100%;
-    background: DarkMagenta;
+    background: linear-gradient(#ADD8E6,#FFB6C1, white, #FFB6C1, #ADD8E6);
 }
 
 .cabecalho {
@@ -46,7 +46,7 @@ a img:active {
 }
 
 nav a:hover {
-    color: MediumVioletRed;
+    color: #DB7093;
     transform: scale(1.2);
 }
 
@@ -65,14 +65,14 @@ nav a:active {
 }
 
 .main-informations li {
-    background-color: MediumVioletRed;
+    background-color: #DB7093;
     text-align: center;
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border-color: MediumVioletRed;
+    border-color: #DB7093;
     border-width: 2px;
     border-style: solid;
 }

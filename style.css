@@ -120,3 +120,43 @@ footer img:hover {
 footer img:active {
     transform: scale(1.8);
 }
+
+@media screen and (max-width: 846px) {
+    .cabecalho {
+        width: 939px;
+    }
+
+    .cabecalho-menu-item {
+        font-size: 28px;
+    }
+
+    .main-informations {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        align-items: center;
+    }
+
+    .main-informations li {
+        width: 50%;
+        height: 800px;
+        padding: 155px 62px 182px;
+    }
+
+    .main-informations h2 {
+        font-size: 30px;
+    }
+
+    .main-informations p {
+        font-size: 21px;
+    }
+
+    footer {
+        width: 939px;;
+        align-items: center;
+    }
+
+    .footer-imagem {
+        width: 118px;
+    }
+}
